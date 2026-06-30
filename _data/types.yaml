@@ -22,6 +22,10 @@ programmer:
   icon: fa-solid fa-code
   description: Programmer
 
+visiting-assistant:
+  icon: fa-solid fa-laptop-code
+  description: Visiting Assistant in Research
+
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
