@@ -14,6 +14,10 @@ phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
+postgraduate-associate:
+  icon: fa-solid fa-dna
+  description: Postgraduate Associate
+
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
