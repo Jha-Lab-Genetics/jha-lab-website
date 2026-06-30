@@ -26,6 +26,10 @@ programmer:
   icon: fa-solid fa-code
   description: Programmer
 
+research-affiliate:
+  icon: fa-solid fa-network-wired
+  description: Research Affiliate
+
 visiting-assistant:
   icon: fa-solid fa-laptop-code
   description: Visiting Assistant in Research
