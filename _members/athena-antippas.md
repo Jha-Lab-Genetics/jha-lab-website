@@ -10,6 +10,7 @@ aliases:
 links:
   email: athena.antippas@yale.edu
   orcid: 0009-0007-1379-4144
+  google-scholar: nocW6dYAAAAJ
   github: athenaantippas
 ---
 
