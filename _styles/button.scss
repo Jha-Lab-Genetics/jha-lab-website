@@ -31,9 +31,9 @@ button {
   transition: background var(--transition), color var(--transition);
 }
 
-.button,
-.button span,
-.button .icon {
+.button:not([data-style="bare"]),
+.button:not([data-style="bare"]) span,
+.button:not([data-style="bare"]) .icon {
   color: #ffffff !important;
 }
 
@@ -45,10 +45,20 @@ button {
 .button[data-style="bare"] {
   padding: 5px;
   background: none;
-  color: var(--primary);
+  color: #000000;
+
+  span,
+  .icon {
+    color: #000000 !important;
+  }
 
   &:hover {
-    color: var(--text);
+    color: #1f2937;
+
+    span,
+    .icon {
+      color: #1f2937 !important;
+    }
   }
 }
 
