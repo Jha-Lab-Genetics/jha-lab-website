@@ -83,6 +83,12 @@ $wrap: 800px;
 
 .citation-buttons .button {
   margin: 0;
+  color: #ffffff !important;
+}
+
+.citation-buttons .button span,
+.citation-buttons .button .icon {
+  color: #ffffff !important;
 }
 
 .citation-text > .tags {
