@@ -40,7 +40,8 @@
   min-width: 0;
 }
 
-.feature-video iframe {
+.feature-video iframe,
+.feature-video-full iframe {
   display: block;
   width: 100%;
   height: 100%;
@@ -49,7 +50,9 @@
 
 .feature-video-full {
   width: 100%;
-  margin: 40px 0;
+  max-width: 1000px;
+  aspect-ratio: 16/9;
+  margin: 0 auto;
   overflow: hidden;
   border-radius: var(--rounded);
 }
