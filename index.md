@@ -13,7 +13,7 @@ We study 3D genome architecture and gene regulation in healthy tissues and cance
 
 {% include section.html %}
 
-<div class="feature-video feature-video-full">
+<div class="feature-video-full">
   <iframe
     src="https://www.youtube-nocookie.com/embed/XTcwwE1KtD4"
     title="Jha Lab video"
@@ -27,6 +27,29 @@ We study 3D genome architecture and gene regulation in healthy tissues and cance
 {% include section.html %}
 
 ## Highlights
+
+{% capture text %}
+
+Meet the researchers building computational methods to understand genome regulation across healthy tissues and disease.
+
+{%
+  include button.html
+  link="team"
+  text="Meet our team"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="home-cta"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/JhaLabTeamFormal.jpg"
+  link="team"
+  title="Our Team"
+  text=text
+%}
 
 {% capture text %}
 
@@ -76,27 +99,4 @@ Explore recent publications spanning 3D genome architecture, RNA splicing, long-
   style="bare"
   text=text
   contain=true
-%}
-
-{% capture text %}
-
-Meet the researchers building computational methods to understand genome regulation across healthy tissues and disease.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="home-cta"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/JhaLabTeamFormal.jpg"
-  link="team"
-  title="Our Team"
-  text=text
 %}
