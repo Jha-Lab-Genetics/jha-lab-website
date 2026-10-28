@@ -23,7 +23,7 @@ We are looking for postdoctoral associates, PhD, master's, and undergraduate stu
 
 {%
   include feature.html
-  image="images/jhalab_background.jpg"
+  youtube="XTcwwE1KtD4"
   title="We are hiring!"
   text=text
   dark=true
@@ -100,7 +100,7 @@ Meet the researchers building computational methods to understand genome regulat
 
 {%
   include feature.html
-  image="images/jhalab_background.jpg"
+  image="images/JhaLabTeamFormal.jpg"
   link="team"
   title="Our Team"
   text=text

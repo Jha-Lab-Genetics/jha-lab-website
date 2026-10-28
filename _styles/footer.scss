@@ -20,6 +20,26 @@ footer a:hover {
   color: var(--primary) !important;
 }
 
+footer .button[data-style="bare"] {
+  background: transparent;
+  color: var(--text) !important;
+
+  span,
+  .icon {
+    color: inherit !important;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--primary) !important;
+  }
+
+  &:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+}
+
 footer .icon {
   font-size: var(--xl);
 }
