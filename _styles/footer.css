@@ -17,6 +17,22 @@ footer a:hover {
   color: var(--primary) !important;
 }
 
+footer .button[data-style=bare] {
+  background: transparent;
+  color: var(--text) !important;
+}
+footer .button[data-style=bare] span,
+footer .button[data-style=bare] .icon {
+  color: inherit !important;
+}
+footer .button[data-style=bare]:hover, footer .button[data-style=bare]:focus-visible {
+  color: var(--primary) !important;
+}
+footer .button[data-style=bare]:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
 footer .icon {
   font-size: var(--xl);
 }
