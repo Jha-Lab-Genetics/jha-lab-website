@@ -7,6 +7,18 @@
     data-flip
   {% endif %}
 >
+  {% if include.youtube %}
+    <div class="feature-image feature-video">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/{{ include.youtube | uri_escape }}"
+        title="{{ include.title | default: 'Video' | xml_escape }}"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+  {% else %}
   <a
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
@@ -24,6 +36,7 @@
       {% include fallback.html %}
     >
   </a>
+  {% endif %}
   <div class="feature-text">
     {% if include.title %}
       <p class="feature-title">{{ include.title }}</p>
