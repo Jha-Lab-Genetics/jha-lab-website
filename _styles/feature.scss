@@ -52,6 +52,13 @@ $wrap: 800px;
   border: 0;
 }
 
+.feature-video-full {
+  width: 100%;
+  margin: 40px 0;
+  overflow: hidden;
+  border-radius: var(--rounded);
+}
+
 .feature-image[data-contain] img {
   object-fit: contain;
   background: var(--background);
