@@ -54,12 +54,21 @@ $wrap: 800px;
 }
 
 .feature-video-full {
+  position: relative;
   width: 100%;
   max-width: 1000px;
   aspect-ratio: 16 / 9;
   margin: 0 auto;
   overflow: hidden;
   border-radius: var(--rounded);
+}
+
+.feature-video-full iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
 }
 
 .feature-image[data-contain] img {
