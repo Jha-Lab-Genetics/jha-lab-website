@@ -31,7 +31,13 @@
 }
 
 .feature-video {
+  width: calc((100% - 40px) / 2);
   aspect-ratio: 16/9;
+}
+
+.feature-video + .feature-text {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .feature-video iframe {
