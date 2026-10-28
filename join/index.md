@@ -24,7 +24,7 @@ Please reach out at anupama[dot]jha[at]yale[dot]edu with your CV and a brief des
 
 {%
   include feature.html
-  image="images/jhalab_background.jpg"
+  image="images/JhaLabTeamInformal.jpg"
   title="Opportunities"
   text=text
   dark=true
