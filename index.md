@@ -13,7 +13,7 @@ We study 3D genome architecture and gene regulation in healthy tissues and cance
 
 {% include section.html %}
 
-<div class="feature-video feature-video-full">
+<div class="feature-video-full">
   <iframe
     src="https://www.youtube-nocookie.com/embed/XTcwwE1KtD4"
     title="Jha Lab video"
