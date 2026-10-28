@@ -30,29 +30,6 @@ We study 3D genome architecture and gene regulation in healthy tissues and cance
 
 {% capture text %}
 
-Meet the researchers building computational methods to understand genome regulation across healthy tissues and disease.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="home-cta"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/JhaLabTeamFormal.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
-
-{% capture text %}
-
 We develop large-scale computational and machine-learning methods to reveal the sequence basis of 3D genome architecture and its impact on downstream gene regulation across human tissues and across evolution.
 
 {%
@@ -99,4 +76,27 @@ Explore recent publications spanning 3D genome architecture, RNA splicing, long-
   style="bare"
   text=text
   contain=true
+%}
+
+{% capture text %}
+
+Meet the researchers building computational methods to understand genome regulation across healthy tissues and disease.
+
+{%
+  include button.html
+  link="team"
+  text="Meet our team"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="home-cta"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/JhaLabTeamFormal.jpg"
+  link="team"
+  title="Our Team"
+  text=text
 %}
