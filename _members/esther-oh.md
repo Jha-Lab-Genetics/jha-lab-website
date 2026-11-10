@@ -2,12 +2,14 @@
 name: Esther Oh
 image: images/EstherOh.png
 role: undergrad
+description: Undergraduate
 affiliation: Yale University
 aliases:
   - E. Oh
   - E Oh
   - Esther Oh
 links:
+  email: esther.oh@yale.edu
   orcid: 0009-0009-3439-5796
   google-scholar: t_cKtE8AAAAJ
   github: esther-oh
